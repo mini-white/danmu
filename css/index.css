@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline:none;
+}
+section{
+    width: 70vw;
+    border: 1px solid #000;
+    margin-top: 5vw;
+    box-sizing: border-box;
+    padding: 0;
+    position: relative;
+    margin:5vw auto ;
+    overflow: hidden;
+}
+section div{
+    margin: 0;
+    width: 100%;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+section .empty{
+    background-color: rgba(0,0,0,0.8);
+    padding: 0.5vw;
+}
+section .empty button{
+    width: 5vw;
+}
+section .empty button:focus,section .empty button:active{
+    outline: none;
+}
+section .empty button:nth-of-type(1){
+    margin-left: 3vw;
+}
+section .empty button:nth-of-type(2){
+    margin-left: 53vw;
+}
+section .empty button:nth-of-type(3){
+    margin-left: 53vw;
+}
+section .send{
+    background-color: rgba(0,0,0,0.8);
+    padding: 0.5vw;
+}
+section .send input{
+    outline: none;
+}
+section .send input:nth-of-type(1){
+    margin-left: 3vw;
+    height: 2.5vw;
+    border-radius: 2.5vw;
+    border: none;
+    text-indent: 1em;
+    width: 20vw;
+}
+section .send input:nth-of-type(2){
+    width: 5vw;
+    margin-left: 1vw;
+    outline: none;
+}
+section .send input:nth-of-type(2):focus{
+    outline: none;
+}
+
+
+
+section .screen{
+    position: relative;
+    /*overflow: hidden;*/
+    height: 29vw;
+}
+section .screen span{
+    position: absolute;
+    float: left;
+    left: 70vw;
+    font-size: 1.5vw;
+    font-family: 宋体;
+
+}

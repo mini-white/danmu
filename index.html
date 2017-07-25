@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>弹幕</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/JQuery-3.2.1.js"></script>
+</head>
+<body>
+<section>
+    <div class="empty">
+        <button type="button" id="empty" class="btn btn-default">清屏</button>
+        <button type="button" id="hidden" class="btn btn-warning">隐藏</button>
+        <button type="button" id="show" class="btn btn-success" style="display: none">显示</button>
+    </div>
+    <div style="width: 100vw;border: none"><div class="screen" id="screen" name="screen"></div></div>
+    <div class="send">
+        <input type="text" id="txt" maxlength="20" placeholder="一起来吐槽吧\^v^/">
+        <input type="button" id="send" value="发送" class="btn btn-primary ">
+    </div>
+</section>
+<script src="js/index.js"></script>
+</body>
+</html>
